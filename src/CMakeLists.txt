@@ -56,7 +56,9 @@ endif()
 
 # The option is forced to ON if _GLIBCXX_USE_CXX11_ABI=0
 cmake_dependent_option(BUILD_FAST_TOKENIZERS "Compile core_tokenizers instead of downloading prebuilt library" OFF "NOT USE_ABI0" ON)
-
+if(NOT BUILD_FAST_TOKENIZERS AND NOT CMAKE_BUILD_TYPE MATCHES Release)
+  message(FATAL_ERROR "The ${CMAKE_BUILD_TYPE} build could not be completed without rebuilding the fast tokenizers. Please manually set BUILD_FAST_TOKENIZERS=ON." )
+endif()
 #
 # Compile flags
 #
