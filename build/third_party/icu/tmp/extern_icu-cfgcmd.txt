@@ -1,0 +1,1 @@
+cmd='msbuild;..\extern_icu\icu4c\source\allinone\allinone.sln;/p:Configuration=Release;/p:Platform=x64;/p:RuntimeLibrary=MT_StaticRelease;/p:SkipUWP=true'

@@ -1,0 +1,523 @@
+The system is: Windows - 10.0.22631 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64/cl.exe 
+Build flags: ;/wd4146;/wd4244;/wd4267;/wd4700;/wd4703;/MT;/w
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/9/2024 6:31:49 PM.
+Project "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\3.20.5\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\3.20.5\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\3.20.5\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.63
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/3.20.5/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc;;/wd4146;/wd4244;/wd4267;/wd4700;/wd4703;/MT;/w;/wd4267;/wd4530
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/9/2024 6:31:51 PM.
+Project "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\3.20.5\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\3.20.5\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\3.20.5\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.66
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/3.20.5/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_166f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_166f1.dir\Debug\\" /Fd"cmTC_166f1.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_166f1.vcxproj]
+  cmTC_166f1.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_166f1.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_5ef18.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5ef18.dir\Debug\\" /Fd"cmTC_5ef18.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_5ef18.vcxproj]
+  cmTC_5ef18.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_5ef18.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6088b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6088b.dir\Debug\\" /Fd"cmTC_6088b.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_6088b.vcxproj]
+  cmTC_6088b.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_6088b.exe
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_ec11c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec11c.dir\Debug\\" /Fd"cmTC_ec11c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_ec11c.vcxproj]
+  cmTC_ec11c.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_ec11c.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_0a6b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a6b6.dir\Debug\\" /Fd"cmTC_0a6b6.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_0a6b6.vcxproj]
+  cmTC_0a6b6.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_0a6b6.exe
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f5d6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f5d6d.dir\Debug\\" /Fd"cmTC_f5d6d.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_f5d6d.vcxproj]
+  cmTC_f5d6d.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_f5d6d.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6d120.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d120.dir\Debug\\" /Fd"cmTC_6d120.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_6d120.vcxproj]
+  cmTC_6d120.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_6d120.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_741f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_741f8.dir\Debug\\" /Fd"cmTC_741f8.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_741f8.vcxproj]
+  CheckIncludeFile.c
+  cmTC_741f8.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_741f8.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_28830.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28830.dir\Debug\\" /Fd"cmTC_28830.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_28830.vcxproj]
+  cmTC_28830.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_28830.exe
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_c7f9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c7f9b.dir\Debug\\" /Fd"cmTC_c7f9b.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_c7f9b.vcxproj]
+  cmTC_c7f9b.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_c7f9b.exe
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_4593d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4593d.dir\Debug\\" /Fd"cmTC_4593d.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_4593d.vcxproj]
+  cmTC_4593d.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_4593d.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_72b2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72b2e.dir\Debug\\" /Fd"cmTC_72b2e.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_72b2e.vcxproj]
+  cmTC_72b2e.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_72b2e.exe
+
+
+
+Determining size of unsigned __int16 passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_161ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE___UINT16.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_161ff.dir\Debug\\" /Fd"cmTC_161ff.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CheckTypeSize\HAVE___UINT16.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_161ff.vcxproj]
+  cmTC_161ff.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_161ff.exe
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_eb2d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_UINT16_T.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb2d2.dir\Debug\\" /Fd"cmTC_eb2d2.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_eb2d2.vcxproj]
+  cmTC_eb2d2.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_eb2d2.exe
+
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_56768.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56768.dir\Debug\\" /Fd"cmTC_56768.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_56768.vcxproj]
+  cmTC_56768.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_56768.exe
+
+
+File C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function UnDecorateSymbolName exists in the dbghelp passed with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_548d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D CHECK_FUNCTION_EXISTS=UnDecorateSymbolName /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_548d3.dir\Debug\\" /Fd"cmTC_548d3.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_548d3.vcxproj]
+  cmTC_548d3.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_548d3.exe
+
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC succeeded with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_14918.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D HAVE___DECLSPEC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14918.dir\Debug\\" /Fd"cmTC_14918.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.c"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_14918.vcxproj]
+  cmTC_14918.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_14918.exe
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fe85c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D STL_STD_NAMESPACE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fe85c.dir\Debug\\" /Fd"cmTC_fe85c.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_fe85c.vcxproj]
+  cmTC_fe85c.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_fe85c.exe
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6f20b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_USING_OPERATOR /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6f20b.dir\Debug\\" /Fd"cmTC_6f20b.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_6f20b.vcxproj]
+  cmTC_6f20b.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_6f20b.exe
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_16347.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_NAMESPACES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_16347.dir\Debug\\" /Fd"cmTC_16347.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_16347.vcxproj]
+  cmTC_16347.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_16347.exe
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS succeeded with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_3690e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_MSVC_TLS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3690e.dir\Debug\\" /Fd"cmTC_3690e.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_3690e.vcxproj]
+  cmTC_3690e.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_3690e.exe
+
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fd549.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_CXX11_TLS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fd549.dir\Debug\\" /Fd"cmTC_fd549.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_fd549.vcxproj]
+  cmTC_fd549.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_fd549.exe
+
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_deaf1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_ALIGNED_STORAGE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_deaf1.dir\Debug\\" /Fd"cmTC_deaf1.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_deaf1.vcxproj]
+  cmTC_deaf1.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_deaf1.exe
+
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_SYMBOLIZE succeeded with the following compile output:
+Change Dir: C:/src/openvino_tokenizers_public/build/third_party/glog/src/extern_glog-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_c4e7d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SYMBOLIZE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c4e7d.dir\Debug\\" /Fd"cmTC_c4e7d.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /wd4146 /wd4244 /wd4267 /wd4700 /wd4703 /wd4267 /wd4530 /errorReport:queue  /w "C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\src.cxx"
+cl : command line warning D9025: overriding '/W1' with '/w' [C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\cmTC_c4e7d.vcxproj]
+  src.cxx
+  cmTC_c4e7d.vcxproj -> C:\src\openvino_tokenizers_public\build\third_party\glog\src\extern_glog-build\CMakeFiles\CMakeTmp\Debug\cmTC_c4e7d.exe
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+  #include <windows.h>
+  #include <dbghelp.h>
+  #include <cstdlib>
+
+  void foobar() { }
+
+  int main()
+  {
+      HANDLE process = GetCurrentProcess();
+
+      if (!SymInitialize(process, NULL, TRUE))
+          return EXIT_FAILURE;
+
+      char buf[sizeof(SYMBOL_INFO) + MAX_SYM_NAME];
+      SYMBOL_INFO *symbol = reinterpret_cast<SYMBOL_INFO *>(buf);
+      symbol->SizeOfStruct = sizeof(SYMBOL_INFO);
+      symbol->MaxNameLen = MAX_SYM_NAME;
+
+      void* const pc = reinterpret_cast<void*>(&foobar);
+      BOOL ret = SymFromAddr(process, reinterpret_cast<DWORD64>(pc), 0, symbol);
+
+      return ret ? EXIT_SUCCESS : EXIT_FAILURE;
+  }
+  
