@@ -100,7 +100,7 @@ build-backend = "py_build_cmake.build"
 
 [tool.poetry]
 package-mode = false
-license = "MIT"
+include = ["LICENSE"]
 
 [[tool.poetry.source]]
 name = "openvino-nightly"
@@ -113,7 +113,7 @@ openvino = { version = "~=2025.2.0.dev", source = "openvino-nightly" }
 [tool.poetry.group.dev.dependencies]
 ruff = ">=0.1.0"
 bandit = ">=1.0.0"
-pytest = ">=6.0.0"
+pytest = "==8.3.0"
 pytest-harvest = ">=1.0.0"
 pandas = ">=1.0.0"
 jinja2 = ">=3.0.0"
