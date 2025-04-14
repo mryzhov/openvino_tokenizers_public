@@ -99,7 +99,6 @@ requires = [
 build-backend = "py_build_cmake.build"
 
 [tool.poetry]
-include = ["LICENSE"]
 package-mode = false
 
 [[tool.poetry.source]]
@@ -111,7 +110,6 @@ priority = "supplemental"
 openvino = { version = "~=2025.2.0.dev", source = "openvino-nightly" }
 
 [tool.poetry.group.dev.dependencies]
-ruff = ">=0.1.0"
 bandit = ">=1.0.0"
 pytest = ">=6.0.0"
 pytest-harvest = ">=1.0.0"
