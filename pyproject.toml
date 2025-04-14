@@ -100,6 +100,7 @@ build-backend = "py_build_cmake.build"
 
 [tool.poetry]
 package-mode = false
+license = "MIT"
 
 [[tool.poetry.source]]
 name = "openvino-nightly"
