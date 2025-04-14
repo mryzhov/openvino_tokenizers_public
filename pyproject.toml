@@ -4,7 +4,7 @@ version = "2025.2.0.0"
 description = "Convert tokenizers into OpenVINO models"
 requires-python = ">=3.9"
 readme = { file = "README.md", content-type="text/markdown" }
-license = { file = "LICENSE" }
+license-files = ["LICENSE"]
 
 authors = [
     { name = "OpenVINO Developers", email = "openvino@intel.com" },
@@ -100,7 +100,6 @@ build-backend = "py_build_cmake.build"
 
 [tool.poetry]
 package-mode = false
-include = ["LICENSE"]
 
 [[tool.poetry.source]]
 name = "openvino-nightly"
