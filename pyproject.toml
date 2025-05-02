@@ -105,12 +105,12 @@ build-backend = "py_build_cmake.build"
 
 [dependency-groups]
 benchmark = [
-    "pandas>=2.0.0,<=2.2.3",
+    "pandas>=2.0.0,<=2.2.0",
     "seaborn>=0.10.0,<=0.13.2",
     "tqdm>=4.50.0,<=4.67.1",
 ]
 dev = [
-    "bandit>=1.7.0,<=1.8.3",
+    "bandit>=1.7.0,<=1.8.0",
     "jinja2>=3.0.0,<=3.1.6",
     "pandas>=2.0.0,<=2.2.3",
     "pytest>=7.0.0,<=8.3.5",
@@ -126,10 +126,7 @@ package = false
 default-groups = ["dev"]
 
 [tool.uv.sources]
-openvino = [
-    { index = "openvino-pre-release" },
-    { index = "openvino-nightly" }
-]
+openvino = { index = "openvino-nightly" }
 
 [[tool.uv.index]]
 name = "openvino-nightly"
