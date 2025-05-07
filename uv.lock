@@ -307,6 +307,15 @@ wheels = [
 ]
 
 [[package]]
+name = "execnet"
+version = "2.1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bb/ff/b4c0dc78fbe20c3e59c0c7334de0c27eb4001a2b2017999af398bf730817/execnet-2.1.1.tar.gz", hash = "sha256:5189b52c6121c24feae288166ab41b32549c7e2348652736540b9e6e7d4e72e3", size = 166524, upload_time = "2024-04-08T09:04:19.245Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/43/09/2aea36ff60d16dd8879bdb2f5b3ee0ba8d08cbbdcdfe870e695ce3784385/execnet-2.1.1-py3-none-any.whl", hash = "sha256:26dee51f1b80cebd6d0ca8e74dd8745419761d3bef34163928cbebbdc4749fdc", size = 40612, upload_time = "2024-04-08T09:04:17.414Z" },
+]
+
+[[package]]
 name = "filelock"
 version = "3.18.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1004,6 +1013,36 @@ wheels = [
     { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino/openvino-2025.2.0.dev20250428-18878-cp39-cp39-manylinux2014_x86_64.whl" },
     { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino/openvino-2025.2.0.dev20250428-18878-cp39-cp39-manylinux_2_31_aarch64.whl" },
     { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino/openvino-2025.2.0.dev20250428-18878-cp39-cp39-win_amd64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp310-cp310-macosx_10_15_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp310-cp310-macosx_11_0_arm64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp310-cp310-manylinux2014_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp310-cp310-manylinux_2_31_aarch64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp310-cp310-win_amd64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp311-cp311-macosx_10_15_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp311-cp311-macosx_11_0_arm64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp311-cp311-manylinux2014_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp311-cp311-manylinux_2_31_aarch64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp311-cp311-win_amd64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp312-cp312-macosx_10_15_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp312-cp312-macosx_11_0_arm64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp312-cp312-manylinux2014_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp312-cp312-manylinux_2_31_aarch64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp312-cp312-win_amd64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp313-cp313-macosx_10_15_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp313-cp313-macosx_11_0_arm64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp313-cp313-manylinux2014_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp313-cp313-manylinux_2_31_aarch64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp313-cp313-win_amd64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp39-cp39-macosx_10_15_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp39-cp39-macosx_11_0_arm64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp39-cp39-manylinux2014_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp39-cp39-manylinux_2_31_aarch64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-genai/openvino_genai-2025.2.0.0.dev20250428-cp39-cp39-win_amd64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-tokenizers/openvino_tokenizers-2025.2.0.0.dev20250428-py3-none-macosx_10_15_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-tokenizers/openvino_tokenizers-2025.2.0.0.dev20250428-py3-none-macosx_11_0_arm64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-tokenizers/openvino_tokenizers-2025.2.0.0.dev20250428-py3-none-manylinux2014_x86_64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-tokenizers/openvino_tokenizers-2025.2.0.0.dev20250428-py3-none-manylinux_2_31_aarch64.whl" },
+    { url = "https://storage.openvinotoolkit.org/wheels/nightly/openvino-tokenizers/openvino_tokenizers-2025.2.0.0.dev20250428-py3-none-win_amd64.whl" },
 ]
 
 [[package]]
@@ -1041,6 +1080,7 @@ dev = [
     { name = "pandas" },
     { name = "pytest" },
     { name = "pytest-harvest" },
+    { name = "pytest-xdist" },
     { name = "ruff" },
 ]
 fuzzing = [
@@ -1067,6 +1107,7 @@ dev = [
     { name = "pandas", specifier = ">=2.0.0,<=2.2.3" },
     { name = "pytest", specifier = ">=7.0.0,<=8.3.5" },
     { name = "pytest-harvest", specifier = ">=1.6.0,<=1.10.5" },
+    { name = "pytest-xdist", specifier = ">=3.4.0,<=3.5.0" },
     { name = "ruff", specifier = ">=0.1.0,<=0.11.7" },
 ]
 fuzzing = [{ name = "atheris", specifier = ">=2.0.0,<=2.3.0" }]
@@ -1309,6 +1350,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a5/cc/5750e19285f81070adbc513b18f1f31a9202aa944cf8b7f8ce27082095d4/pytest-harvest-1.10.5.tar.gz", hash = "sha256:27cfa4cf1f2e43d1e7749c282e0fe72d30e90e89bede6b30a59b626848c7d418", size = 81064, upload_time = "2024-03-16T00:57:35.88Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1f/a3/d6c4da04ce6b63ad8b09f956a4dc3741a00fcb74c4a9079a5c014fcb5fb2/pytest_harvest-1.10.5-py2.py3-none-any.whl", hash = "sha256:44a0c53dd33449ec7c0473ff2edb4887d4f105bb2d6faeb0f3784e2a15cae55c", size = 23651, upload_time = "2024-03-16T00:57:33.59Z" },
+]
+
+[[package]]
+name = "pytest-xdist"
+version = "3.5.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "execnet" },
+    { name = "pytest" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b3/f4/ac9c4ccbc5984ebc3bef6dbdbcdaf553a1aae07c08e63b8b25a6239ecc45/pytest-xdist-3.5.0.tar.gz", hash = "sha256:cbb36f3d67e0c478baa57fa4edc8843887e0f6cfc42d677530a36d7472b32d8a", size = 78977, upload_time = "2023-11-21T15:21:15.305Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/50/37/125fe5ec459321e2d48a0c38672cfc2419ad87d580196fd894e5f25230b0/pytest_xdist-3.5.0-py3-none-any.whl", hash = "sha256:d075629c7e00b611df89f490a5063944bee7a4362a5ff11c7cc7824a03dfce24", size = 42017, upload_time = "2023-11-21T15:21:13.278Z" },
 ]
 
 [[package]]
