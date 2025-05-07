@@ -17,6 +17,18 @@ updates:
       - "mryzhov"
     versioning-strategy: increase-if-necessary
 
+  - package-ecosystem: uv
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+      timezone: "Europe/Dublin"
+    open-pull-requests-limit: 5
+    assignees:
+      - "apaniukov"
+      - "mryzhov"
+    versioning-strategy: increase-if-necessary
+
   #
   # Github actions - CI
   #
