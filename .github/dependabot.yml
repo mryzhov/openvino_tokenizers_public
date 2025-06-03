@@ -11,6 +11,8 @@ updates:
       interval: "daily"
       time: "09:00"
       timezone: "Europe/Dublin"
+    allow:
+      - dependency-type: "all"
     open-pull-requests-limit: 5
     assignees:
       - "apaniukov"
