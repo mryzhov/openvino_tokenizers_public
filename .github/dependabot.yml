@@ -13,7 +13,7 @@ updates:
       timezone: "Europe/Dublin"
     allow:
       - dependency-type: "all"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
     assignees:
       - "apaniukov"
       - "mryzhov"
