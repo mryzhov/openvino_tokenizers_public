@@ -108,7 +108,7 @@ package-mode = false
 
 [[tool.poetry.source]]
 name = "openvino-nightly"
-url = "https://6841805b0091715eaa2cf41b--ephemeral-sundae-cc0966.netlify.app"
+url = "https://684185f900917173892cfa31--tangerine-cajeta-4a89f6.netlify.app"
 priority = "supplemental"
 
 [tool.poetry.dependencies]
