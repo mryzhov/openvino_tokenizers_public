@@ -38,7 +38,7 @@ classifiers = [
 
 dependencies = [
     # support of nightly openvino packages with dev suffix
-    "openvino~=2025.3.0.dev"
+    "openvino~=2025.2.0.dev"
 ]
 
 [project.optional-dependencies]
@@ -108,7 +108,7 @@ package-mode = false
 
 [[tool.poetry.source]]
 name = "openvino-nightly"
-url = "https://storage.openvinotoolkit.org/simple/wheels/nightly"
+url = "https://68417c062d11a96045ae0f4c--gorgeous-zabaione-539e0f.netlify.app"
 priority = "supplemental"
 
 [tool.poetry.dependencies]
