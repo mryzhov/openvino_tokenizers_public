@@ -361,7 +361,7 @@ jobs:
           merge-multiple: true
         
       - name: Install uv
-        uses: astral-sh/setup-uv@c7f87aa956e4c323abf06d5dec078e358f6b4d04 # v6.0.0
+        uses: astral-sh/setup-uv@eb1897b8dc4b5d5bfe39a428a8f2304605e0983c # v7.0.0
       
       - name: Find OpenVINO wheel
         uses: ./.github/actions/find_wheel
