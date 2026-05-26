@@ -74,4 +74,6 @@ module.exports = {
   getPythonVersion,
 };
 
-run();
+if (require.main === module) {
+  run();
+}

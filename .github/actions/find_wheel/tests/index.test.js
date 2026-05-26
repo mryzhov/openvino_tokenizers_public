@@ -10,12 +10,7 @@ const findWheelImpl = require("../src/index.js");
 const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "test-find-wheel"));
 const wheelsPath = path.join(tempDir, "wheels");
 
-const wheels = [
-  "package_x-1.0.0-cp310-cp310-linux_x86_64.whl",
-  "package_x-1.0.0-cp311-cp311-linux_x86_64.whl",
-  "package_y-1.0.0-cp311-cp311-linux_x86_64.whl",
-  "package_y-2.0.0-cp311-cp311-linux_x86_64.whl",
-];
+let wheels;
 
 // Mock the GitHub Actions core library
 const getInputMock = jest.spyOn(core, "getInput").mockImplementation();
@@ -31,6 +26,19 @@ afterEach(() => {
 const runMock = jest.spyOn(findWheelImpl, "run");
 
 describe("run", () => {
+  beforeAll(async () => {
+    const pythonVersion = await findWheelImpl.getPythonVersion();
+    const currentPythonTag = `cp${pythonVersion.major}${pythonVersion.minor}`;
+    const fallbackPythonTag = currentPythonTag === "cp311" ? "cp310" : "cp311";
+
+    wheels = [
+      `package_x-1.0.0-${fallbackPythonTag}-${fallbackPythonTag}-linux_x86_64.whl`,
+      `package_x-1.0.0-${currentPythonTag}-${currentPythonTag}-linux_x86_64.whl`,
+      `package_y-1.0.0-${currentPythonTag}-${currentPythonTag}-linux_x86_64.whl`,
+      `package_y-2.0.0-${currentPythonTag}-${currentPythonTag}-linux_x86_64.whl`,
+    ];
+  });
+
   beforeEach(() => {
     jest.clearAllMocks();
 
